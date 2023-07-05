@@ -1,0 +1,9 @@
+.serverless
+venv/
+data/
+.env.*
+__pycache__/
+yarn.lock
+package-lock.json
+*.log
+node_modules
