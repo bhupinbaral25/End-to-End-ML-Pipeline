@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ##50 18 * * * ./deployment.sh
-
+sh start_script.sh
 # Step 1: Create a virtual environment and activate it
 echo "Step 1: Setting up virtual environment..."
 python3 -m venv venv
