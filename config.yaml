@@ -1,3 +1,16 @@
-port :
-model_path :
-data_path : 'data/' 
+port : 8080
+model_path : "./models"
+base_data_path : "./data/pre_processed_data/"
+raw_data_path : './data/raw_data/raw_data.csv'
+preprocess_data_path : 'preprocess_training_data.csv'
+column_to_drop : ["x"]
+delimeter : ':'
+log_file: 'app.log'
+test_size: 0.15
+preprocess_test_data_path: 'preprocess_test_data.csv'
+Features : ["x2"]
+Lable : ["y"]
+threshold_rmse : 0.13
+result : "./results/"
+process_dict_flag : "flag_global_dict.pkl"
+viz_html_file: dataviz.html
